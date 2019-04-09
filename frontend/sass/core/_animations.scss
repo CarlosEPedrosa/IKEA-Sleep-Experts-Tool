@@ -1,0 +1,67 @@
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes fade-in {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes fade-out {
+	0% {
+		width: 100%;
+	}
+	100% {
+		width: 0;
+	}
+}
+
+@keyframes scale-up {
+	0% {
+		transform: scale(1);
+	}
+	100% {
+		transform: scale(1.1);
+	}
+}
+
+@keyframes scale-down {
+	0% {
+		transform: scale(1.1);
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes wipe {
+	0% {
+		width: 0;
+	}
+	100% {
+		width: 100%;
+	}
+  }
+
+  @keyframes movedown {
+    from {
+      transform: translateY(-2%);
+      opacity: 0;
+    }
+  }
+
+  @keyframes moveup {
+    from {
+      transform: translateY(2%);
+      opacity: 0;
+    }
+  }

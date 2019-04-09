@@ -1,0 +1,101 @@
+{  
+  "name":"IKEA Sleep Experts",
+  "screens":[  
+      {  
+         "type":"Splash",
+         "heading":"It's time to fall back in love with sleep",
+         "content":"Try our tool to discover the secrets of better and longer sleep. Learn all about the science of great slumber for a smoothing rest, every night.",
+         "visual": "splash.svg",
+         "mobile": "splash-mobile.png",
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination": "screener",
+               "label": "Start"
+            }
+         ]
+      },
+      {  
+         "type":"Essentials",
+         "tracking": "page tracker",
+         "essentials":[
+            {
+               "type": "intro",
+               "heading":"Discover the five elements of great sleep with tips and tricks to get a better night’s rest.",
+               "content":"Tap a number to get started"
+            },
+            {
+               "type": "marker",
+               "marker": 1,
+               "heading":"Comfort",
+               "content":"Being uncomfortable in bed means we fluctuate between being awake and light sleep, missing out on the restorative benefits of deep sleep. The collective comfort provided by your mattress, pillow and bedding determines the level of support that your body and spine receive. The more comfortable you are, the better you sleep.",
+               "tracking": "button tracker",
+               "ctas":[
+                  {
+                     "tracking": "button clicked",
+                     "destination": "comfort",
+                     "label": "Tell me more"
+                  }
+               ]
+            },
+            {  
+               "type": "marker",
+               "marker": 2,
+               "heading":"Light",
+               "content":"Humans are incredibly sensitive to light and dark. Light sensitive cells in our eyes detect the rise and fall of the sun, instructing our brain that it’s time to sleep or&nbsp;wake.",
+               "tracking": "button tracker",
+               "ctas":[
+                  {
+                     "tracking": "button clicked",
+                     "destination": "light",
+                     "label": "Tell me more"
+                  }
+               ]
+            },
+            {  
+               "type": "marker",
+               "marker": 3,
+               "heading":"Temperature",
+               "content":"Your body temperature plays an important role in how you sleep. Just a 1°C drop at the start of the night can help you to fall asleep quickly.",
+               "tracking": "button tracker",
+               "ctas":[
+                  {
+                     "tracking": "button clicked",
+                     "destination": "temperature",
+                     "label": "Tell me more"
+                  }
+               ]
+            },
+            {  
+               "type": "marker",
+               "marker": 4,
+               "heading":"Noise",
+               "content":"Sounds that reach the brain during sleep can stimulate the waking centre and keep your body on high alert. In fact, recent research suggests that the sleeping brain is always listening out for noise.",
+               "tracking": "button tracker",
+               "ctas":[
+                  {
+                     "tracking": "button clicked",
+                     "destination": "noise",
+                     "label": "Tell me more"
+                  }
+               ]
+            },
+            {  
+               "type": "marker",
+               "marker": 5,
+               "heading":"Air Quality",
+               "content":"Did you know that the bedroom often has the worst air quality in the whole house? That’s mainly because the door tends to stay shut. This is bad news when the air quality of your bedroom is proven to affect the quality of your sleep.",
+               "tracking": "button tracker",
+               "ctas":[
+                  {
+                     "tracking": "button clicked",
+                     "destination": "air",
+                     "label": "Tell me more"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

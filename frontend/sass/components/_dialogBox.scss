@@ -1,0 +1,103 @@
+#dialog-box-component{
+
+    .dialog-bubble{
+        position: relative;
+        background:white;
+        padding:20px;
+        border-radius:0px;
+        margin-left:20px;
+
+        @media (max-width: 780px) {
+            width:80%;
+            margin:0 auto;
+        }
+
+        &::after{
+            content:"";
+            display:block;
+            position: absolute;
+            
+            left:-10px;
+            top:50%;
+            transform: translateY(-50%);
+
+            width: 0;
+            height: 0;
+
+            border-top: 13px solid transparent;
+            border-bottom: 13px solid transparent;
+            border-right: 10px solid white;
+
+            @media (max-width: 780px) {
+                top:-20px;
+                left:50%;
+                transform: translateX(-50%);
+
+                // border-top: 13px solid transparent;
+                // border-bottom: 13px solid transparent;
+                // border-left: 10px solid white;
+                border-right:0;
+                border-left: 13px solid transparent;
+                border-right: 13px solid transparent;
+                border-bottom: 10px solid white;
+            }
+        }
+
+        .dialog-inner-content{
+            text-align: center;
+            overflow: hidden;
+            transition:height 0.3s ease-out;
+
+            .marker{
+                width:30px;
+                height:30px;
+                background-color: $yellow;
+                border-radius: 15px;
+                margin: 0 auto;
+                margin-bottom: 10px;
+                position: relative;
+
+                span{
+                    position: absolute;
+                    top:6px;
+                    left:0;
+                    width:100%;
+                    font-size:14px;
+                    font-weight: bold;
+                }
+            }
+
+            .title{
+                font-size:15px;
+                line-height: 22px;
+                font-weight: bold;
+            }
+
+            .content{
+                font-size:15px !important;
+                line-height: 22px !important;
+                width: 80%;
+                margin: 0 auto;
+                margin-top:15px;
+                margin-bottom:20px;
+            }
+
+            .cta{
+                background-color: $yellow;
+                color:$copy-purple;
+                padding:10px;
+                font-weight: bold;
+                font-size:14px;
+                margin-top:10px;
+                cursor: pointer;
+
+                &:hover{
+                    background-color: $copy-purple;
+                    color: $yellow;
+                }
+            }
+
+        }
+    }
+
+}

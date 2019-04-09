@@ -1,0 +1,382 @@
+{  
+   "name":"IKEA Sleep Experts - Light",
+   "screens":[
+      {  
+         "id": 0,
+         "type":"Question",
+         "heading":"Light",
+         "content":"Humans are incredibly sensitive to light and dark. Light sensitive cells in our eyes detect the rise and fall of the sun, instructing our brain that it’s time to sleep or wake.",
+         "visual": ["IKEA_Sleep_essentials_v5_L1.svg"],
+         "mobile": ["IKEA_Sleep_essentials_v5_L1-mobile.png"],
+         "includeBed": 0,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":1,
+               "label": "Tell me more"
+            }
+         ]
+      },
+      {  
+         "id": 1,
+         "type":"Question",
+         "heading":"Natural Light",
+         "content":"Daytime sunlight stimulates the release of cortisol, the hormone responsible for waking you up and energising you for the day ahead.",
+         "visual": ["IKEA_Sleep_essentials_v5_L2.svg"],
+         "mobile": ["IKEA_Sleep_essentials_v5_L2-mobile.png"],
+         "includeBed": 0,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":2,
+               "label": "What do you recommend?"
+            },
+            {
+               "tracking": "button clicked",
+               "destination":3,
+               "label": "What about artificial light?"
+            }
+         ]
+      },
+      {  
+         "id": 2,
+         "type":"Product",
+         "heading":"Recommendation (Natural Light)",
+         "content":"Controlling your exposure to natural light may help with the routine of sleep.",
+         "extra": "These products are ideal if you want to control the natural light in your room:",
+         "visual": "",
+         "tracking": "page tracker",
+         "articles":[
+            {
+               "visual": "images/light/articles/why-light-matters-at-bedtime.jpg",
+               "tracking": "article clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/ideas/why-light-matters-at-bedtime-1364672953661/",
+                  "ieen": "https://www.ikea.com/ie/en/ideas/why-light-matters-at-bedtime-1364670774534/"
+                },
+               "name": "Why light matters at bedtime",
+               "description" : "If you want to drift off easily and get a good amount of uninterrupted, high-quality sleep, it’s important to think about light."
+            }
+         ],
+         "products":[
+            {
+               "visual": "images/light/products/majgull-block-out-curtains-dark-blue.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/curtains-blinds/majgull-block-out-curtains-1-pair-dark-blue-art-70341034/?k=70341034",
+                  "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/curtains-blinds/majgull-block-out-curtains-1-pair-dark-blue-art-70341034/?k=70341034"
+                },
+               "name": "MAJGULL",
+               "description" : "Dark blue, Block-out curtains",
+               "price" : {
+                   "gben": "£25",
+                   "ieen": "€30"
+                }
+            },
+            {
+                "visual": "images/light/products/sanela-curtains-dark-green.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/curtains-blinds/sanela-curtains-1-pair-dark-green-art-50414093/?k=50414093+",
+                   "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/curtains-blinds/sanela-curtains-1-pair-dark-green-art-50414093/?k=50414093+"
+                },
+                "name": "SANELA",
+                "description" : "Dark green, Curtains",
+                "price" : {
+                   "gben": "£40",
+                   "ieen": "€50"
+                }
+             },
+             {
+                "visual": "images/light/products/majgull-block-out-curtains-light-grey.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/curtains-blinds/majgull-block-out-curtains-1-pair-light-grey-art-30346750/?k=30346750+",
+                   "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/curtains-blinds/majgull-block-out-curtains-1-pair-light-grey-art-30346750/?k=30346750+"
+                 },
+                "name": "MAJGULL",
+                "description" : "Light grey, Block-out curtains",
+                "price" : {
+                    "gben": "£25",
+                    "ieen": "€30"
+                 }
+             },
+             {
+                 "visual": "images/light/products/sanela-curtains-dark-red.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/curtains-blinds/sanela-curtains-1-pair-dark-red-art-30414027/?k=30414027+",
+                    "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/curtains-blinds/sanela-curtains-1-pair-dark-red-art-30414027/?k=30414027+"
+                 },
+                 "name": "SANELA",
+                 "description" : "Dark red, Curtains",
+                 "price" : {
+                    "gben": "£40",
+                    "ieen": "€50"
+                 }
+              },
+              {
+                 "visual": "images/light/products/tupplur-block-out-roller-blind-black.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/curtains-blinds/tupplur-block-out-roller-blind-black-art-70349129/?k=70349129+",
+                    "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/curtains-blinds/tupplur-block-out-roller-blind-black-art-70349129/?k=70349129+"
+                  },
+                 "name": "TUPPLUR",
+                 "description" : "Black, Block-out roller blind",
+                 "price" : {
+                     "gben": "£7.50",
+                     "ieen": "€9"
+                  }
+              },
+              {
+                  "visual": "images/light/products/tupplur-block-out-roller-blind-white.jpg",
+                  "tracking": "product clicked",
+                  "destination": {
+                     "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/curtains-blinds/tupplur-block-out-roller-blind-white-art-50349125/?k=50349125+",
+                     "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/curtains-blinds/tupplur-block-out-roller-blind-white-art-50349125/?k=50349125+"
+                  },
+                  "name": "TUPPLUR",
+                  "description" : "White, Block-out roller blind",
+                  "price" : {
+                     "gben": "£20",
+                     "ieen": "€25"
+                  }
+               },
+              {
+                  "visual": "images/light/products/tupplur-block-out-roller-blind-grey.jpg",
+                  "tracking": "product clicked",
+                  "destination": {
+                     "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/curtains-blinds/tupplur-block-out-roller-blind-grey-art-90349133/?k=90349133+",
+                     "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/curtains-blinds/tupplur-block-out-roller-blind-grey-art-90349133/?k=90349133+"
+                  },
+                  "name": "TUPPLUR",
+                  "description" : "Grey, Block-out roller blind",
+                  "price" : {
+                     "gben": "£9",
+                     "ieen": "€11"
+                  }
+                }
+         ],
+         "ctas":[
+           {
+              "tracking": "button clicked",
+              "destination": 3,
+              "label": "What about artificial light?"
+           }
+         ]
+      },
+      {  
+         "id": 3,
+         "type":"Question",
+         "heading":"Artificial Light",
+         "content":"When it gets dark, your internal body clock triggers the release of the sleep-promoting hormone melatonin, preparing you for sleep. In the evening, exposure to artificial light disrupts this biological sleep preparation.",
+         "visual": ["IKEA_Sleep_essentials_v5_L3.svg"],
+         "mobile": ["IKEA_Sleep_essentials_v5_L3-mobile.png"],
+         "includeBed": 0,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":2,
+               "label": "What about natural light?"
+            },
+            {
+               "tracking": "button clicked",
+               "destination":4,
+               "label": "What do you recommend?"
+            }
+         ]
+      },
+      {  
+         "id": 4,
+         "type":"Product",
+         "heading":"Recommendation (Artificial light)",
+         "content":"Dimming your lights an hour before bedtime and sleeping in a dark room are essential for a great night’s sleep.",
+         "extra": "These products are ideal for keeping your room at the right light levels:",
+         "visual": "",
+         "tracking": "page tracker",
+         "articles":[
+            {
+               "visual": "images/light/articles/sleep-friendly-light-in-your-bedroom.jpg",
+               "tracking": "article clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/ideas/how-to-create-sleep-friendly-light-in-your-bedroom-1364672954247/",
+                  "ieen": "https://www.ikea.com/ie/en/ideas/how-to-create-sleep-friendly-light-in-your-bedroom-1364670828143/"
+                },
+               "name": "How to create sleep-friendly light in your bedroom",
+               "description" : "From dimmable lights to a digital device ban, here’s how to use light to help you get a better night’s sleep."
+            }
+         ],
+         "products":[
+            {
+               "visual": "images/light/products/arstid-table-lamp-brass-white.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/lighting/table-lamps/%C3%A5rstid-table-lamp-brass-white-art-60321376/?k=60321376",
+                  "ieen": "https://www.ikea.com/ie/en/products/lighting/table-lamps/%C3%A5rstid-table-lamp-brass-white-art-60321376/?k=60321376"
+                },
+               "name": "ÅRSTID",
+               "description" : "Table lamp",
+               "price" : {
+                   "gben": "£16",
+                   "ieen": "€19"
+                }
+            },
+            {
+                "visual": "images/light/products/solbo-table-lamp-white-owl.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/childrens-ikea-products/children-3-7/childrens-lighting/solbo-table-lamp-white-owl-art-30325696/?k=30325696",
+                   "ieen": "https://www.ikea.com/ie/en/products/childrens-ikea-products/children-3-7/childrens-lighting/solbo-table-lamp-white-owl-art-30325696/?k=30325696"
+                },
+                "name": "SOLBO",
+                "description" : "Table lamp",
+                "price" : {
+                   "gben": "£14",
+                   "ieen": "€15"
+                }
+             },
+             {
+                "visual": "images/light/products/tradfri-dimming-kit-white-spectrum-grey-white.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/lighting/smart-lighting/tr%C3%A5dfri-dimming-kit-white-spectrum-grey-white-art-70338932/?k=70338932",
+                   "ieen": "https://www.ikea.com/ie/en/products/lighting/smart-lighting/tr%C3%A5dfri-dimming-kit-white-spectrum-grey-white-art-70338932/?k=70338932"
+                 },
+                "name": "TRADFRI",
+                "description" : "Dimming kit",
+                "price" : {
+                    "gben": "£29",
+                    "ieen": "€35"
+                 }
+             },
+             {
+                 "visual": "images/light/products/tradfri-dimming-kit-warm-white-black.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/lighting/smart-lighting/tr%C3%A5dfri-dimming-kit-warm-white-black-art-00356910/?k=00356910+",
+                    "ieen": "https://www.ikea.com/ie/en/products/lighting/smart-lighting/tr%C3%A5dfri-dimming-kit-warm-white-black-art-00356910/?k=00356910+"
+                 },
+                 "name": "TRADFRI",
+                 "description" : "Dimming kit",
+                 "price" : {
+                    "gben": "£15",
+                    "ieen": "€19"
+                 }
+              }
+         ],
+         "ctas":[
+           {
+              "tracking": "button clicked",
+              "destination": 5,
+              "label": "Does that include smart devices?"
+           }
+         ]
+      },
+      {  
+         "id": 5,
+         "type":"Question",
+         "heading":"Blue Light",
+         "content":"Phones, tablets, TVs… Any device with a bright LCD screen produces blue light that’s the same wavelength as the sun. Looking at screens in the last hour before bed, or during the night to check the time, tricks your brain into thinking it’s time to wake up.",
+         "visual": ["IKEA_Sleep_essentials_v5_L4.svg"],
+         "includeBed": 0,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":6,
+               "label": "What do you recommend?"
+            }
+         ]
+      },
+      {  
+         "id": 6,
+         "type":"Product",
+         "heading":"Recommendation (Blue light) ",
+         "content":"Keeping technology out of the bedroom is a simple way to improve your sleep quality. Why not start by swapping your phone for a traditional alarm clock? Failing that, most devices will have a nightshift mode that removes blue light from the screen, which you can set by a timer.",
+         "extra": "",
+         "visual": "",
+         "tracking": "page tracker",
+         "articles":[
+            {
+               "visual": "images/light/articles/sleep-friendly-light-in-your-bedroom.jpg",
+               "tracking": "article clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/ideas/how-to-create-sleep-friendly-light-in-your-bedroom-1364672954247/",
+                  "ieen": "https://www.ikea.com/ie/en/ideas/how-to-create-sleep-friendly-light-in-your-bedroom-1364670828143/"
+                },
+               "name": "How to create sleep-friendly light in your bedroom",
+               "description" : "From dimmable lights to a digital device ban, here’s how to use light to help you get a better night’s sleep."
+            }
+         ],
+         "products":[
+            {
+               "visual": "images/light/products/dekad-alarm-clock-black.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/decoration/clocks/dekad-alarm-clock-black-art-20404000/?k=20404000",
+                  "ieen": "https://www.ikea.com/ie/en/products/decoration/clocks/dekad-alarm-clock-black-art-20404000/?k=20404000"
+                },
+               "name": "DEKAD",
+               "description" : "Alarm Clock",
+               "price" : {
+                   "gben": "£4.50",
+                   "ieen": "€5.00"
+                }
+            },
+            {
+                "visual": "images/light/products/vikis-alarm-clock-white.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/decoration/clocks/vikis-alarm-clock-white-art-80154550/?k=80154550",
+                   "ieen": ""
+                },
+                "name": "VIKIS",
+                "description" : "Alarm Clock",
+                "price" : {
+                   "gben": "£8",
+                   "ieen": "£8"
+                }
+             },
+             {
+                "visual": "images/light/products/lottorp-clock-thermometer-alarm-timer-black-white-green.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/decoration/clocks/l%C3%B6ttorp-clock-thermometer-alarm-timer-black-white-green-art-80272087/?k=80272087",
+                   "ieen": "https://www.ikea.com/ie/en/products/decoration/clocks/l%C3%B6ttorp-clock-thermometer-alarm-timer-black-white-green-art-80272087/?k=80272087"
+                 },
+                "name": "LÖTTORP",
+                "description" : "Alarm Clock",
+                "price" : {
+                    "gben": "£4.50",
+                    "ieen": "€5.50"
+                 }
+             },
+             {
+                 "visual": "images/light/products/klockis-clock-thermometer-alarm-timer-white.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/decoration/clocks/klockis-clock-thermometer-alarm-timer-white-art-80277004/?k=80277004",
+                    "ieen": "https://www.ikea.com/ie/en/products/decoration/clocks/klockis-clock-thermometer-alarm-timer-white-art-80277004/?k=80277004"
+                 },
+                 "name": "KLOCKIS",
+                 "description" : "Alarm Clock",
+                 "price" : {
+                    "gben": "£4.50",
+                    "ieen": "€5.50"
+                 }
+              }
+         ],
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":"essentials",
+               "label": "Discover more"
+            }
+         ]
+      }
+    ]
+ }

@@ -1,0 +1,29 @@
+$purple: #c690e7;
+$copy-purple: #3f3073;
+$yellow: #ffed3f;
+$hover-speed: .25s;
+
+$heading-large: 44px;
+$heading-medium: 30px;
+$heading-small: 25px;
+
+$heading-size-1: 28px;
+$heading-size-2: 24px;
+$heading-size-3: 20px;
+$body-font-size: 100%/1.5;
+
+
+$gutter-30: 30px;
+
+$assetPath: "../";
+
+@if $NODE_ENV == "staging" {
+  // $assetPath: "//rabbithole.ikea.com/campaigns/sleep-expert/staging/";
+  // $assetPath: "//rabbithole.ikea.com/campaigns/mantra-generator/staging/";
+  $assetPath: "//interactivestaging.amvbbdo.com/IKEA/sleep-experts/";
+}
+
+@if $NODE_ENV == "production" {
+  // $assetPath: "//rabbithole.ikea.com/campaigns/mantra-generator/production/";
+  $assetPath: "//rabbitholetestorch001.blob.core.windows.net/plugins/sleep-expert/";
+}

@@ -1,0 +1,118 @@
+{  
+    "visuals":
+        [
+            {
+                "screen" : 0,
+                "variant" : "A",
+                "svg" : "IKEA_Sleep_essentials_v5_1A-00.svg"
+            },
+            {
+                "screen" : 1,
+                "variant" : "A",
+                "svg" : "IKEA_Sleep_essentials_v5_1A-01.svg"
+            },
+            {
+                "screen" : 1,
+                "variant" : "B",
+                "svg" : "IKEA_Sleep_essentials_v5_1B-01.svg"
+            },
+            {
+                "screen" : 1,
+                "variant" : "C",
+                "svg" : "IKEA_Sleep_essentials_v5_1C-01.svg"
+            },
+            {
+                "screen" : 2,
+                "variant" : "A",
+                "svg" : "IKEA_Sleep_essentials_v5_2A-01.png",
+                "mobile" : "IKEA_Sleep_essentials_v5_2A-01-mobile.png"
+            },
+            {
+                "screen" : 2,
+                "variant" : "B",
+                "svg" : "IKEA_Sleep_essentials_v5_2B-01.png",
+                "mobile" : "IKEA_Sleep_essentials_v5_2B-01-mobile.png"
+            },
+            {
+                "screen" : 2,
+                "variant" : "C",
+                "svg" : "IKEA_Sleep_essentials_v5_2C-01.png",
+                "mobile" : "IKEA_Sleep_essentials_v5_2C-01-mobile.png"
+            },
+            {
+                "screen" : 3,
+                "variant" : "A",
+                "svg" : "IKEA_Sleep_essentials_v5_3A-01.svg"
+            },
+            {
+                "screen" : 3,
+                "variant" : "B",
+                "svg" : "IKEA_Sleep_essentials_v5_3B-01.svg"
+            },
+            {
+                "screen" : 3,
+                "variant" : "C",
+                "svg" : "IKEA_Sleep_essentials_v5_3C-01.svg"
+            },
+            {
+                "screen" : 4,
+                "variant" : "A",
+                "svg" : "IKEA_Sleep_essentials_v5_4A-01.svg"
+            },
+            {
+                "screen" : 4,
+                "variant" : "B",
+                "svg" : "IKEA_Sleep_essentials_v5_4B-01.svg"
+            },
+            {
+                "screen" : 4,
+                "variant" : "C",
+                "svg" : "IKEA_Sleep_essentials_v5_4C-01.svg"
+            },
+            {
+                "screen" : 5,
+                "variant" : "A",
+                "svg" : "IKEA_Sleep_essentials_v5_5B-01.svg"
+            },
+            {
+                "screen" : 5,
+                "variant" : "B",
+                "svg" : "IKEA_Sleep_essentials_v5_5A-01.svg"
+            },
+            {
+                "screen" : 5,
+                "variant" : "C",
+                "svg" : "IKEA_Sleep_essentials_v5_5C-01.svg"
+            },
+            {
+                "screen" : 6,
+                "variant" : "A",
+                "svg" : "IKEA_Sleep_essentials_v5_6A-01.svg"
+            },
+            {
+                "screen" : 6,
+                "variant" : "B",
+                "svg" : "IKEA_Sleep_essentials_v5_6B-01.svg"
+            },
+            {
+                "screen" : 6,
+                "variant" : "C",
+                "svg" : "IKEA_Sleep_essentials_v5_6C-01.svg"
+            },
+            {
+                "screen" : 7,
+                "variant" : "A",
+                "svg" : "IKEA_Sleep_essentials_v5_7A-01.svg"
+            },
+            {
+                "screen" : 7,
+                "variant" : "B",
+                "svg" : "IKEA_Sleep_essentials_v5_7B-01.svg"
+            },
+            {
+                "screen" : 7,
+                "variant" : "C",
+                "svg" : "IKEA_Sleep_essentials_v5_7C-01.svg"
+            }
+        ]  
+}

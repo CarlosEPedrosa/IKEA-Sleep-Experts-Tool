@@ -1,0 +1,758 @@
+{  
+   "name":"IKEA Sleep Experts - Comfort",
+   "screens":[
+       {  
+          "id": 0,
+          "type":"Question",
+          "heading":"Comfort",
+          "content":"Being uncomfortable in bed means we fluctuate between being awake and light sleep, missing out on the restorative benefits of deep sleep. The collective comfort provided by your mattress, pillow and bedding determines the level of support that your body and spine receive. The more comfortable you are, the better you sleep.",
+          "visual": ["IKEA_Sleep_essentials_v5_C1.svg"],
+          "includeBed": 1,
+          "tracking": "page tracker",
+          "ctas":[
+             {
+                "tracking": "button clicked",
+                "destination":2,
+                "label": "I'm comfortable, but tend to snore"
+             },
+             {
+                "tracking": "button clicked",
+                "destination": 1,
+                "label": "I’m comfortable, but have allergies"
+             },
+             {
+                "tracking": "button clicked",
+                "destination": 4,
+                "label": "Tell me more"
+             }
+          ]
+       },
+       {  
+          "id": 1,
+          "type":"Product",
+          "heading":"Sleep allergy conditions",
+          "content":"If you suffer from a dust mite allergy, then you’ll experience more sleep disturbances and daytime tiredness than other people. Regularly washing your bedding at high temperatures (60°C) can be a simple way to improve sleep quality.",
+          "extra": "",
+          "visual": ["IKEA_Sleep_essentials_v5_C2.svg"],
+          "includeBed": 1,
+          "tracking": "page tracker",
+          "articles":[
+            {
+               "visual": "images/comfort/articles/ikea-sleeping-positions.jpg",
+               "tracking": "article clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/ideas/the-low-down-on-sleeping-positions-1364672951770/",
+                  "ieen": "https://www.ikea.com/ie/en/ideas/the-low-down-on-sleeping-positions-1364669514020/"
+                },
+               "name": "The low-down on sleeping positions",
+               "description" : "Most of us have a favourite way of sleeping, but which positions help us get good-quality sleep?"
+            }
+          ],
+          "products":[],
+          "ctas":[]
+       },
+       {  
+         "id": 2,
+         "type":"Question",
+         "heading":"Sleep medical conditions",
+         "content":"Lying down flat to sleep can actually result in worsening medical conditions for some people – such as snoring, sleep apnoea, acid reflux and poor circulation.",
+         "visual": ["IKEA_Sleep_essentials_v5_C8.svg"],
+         "includeBed": 1,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":3,
+               "label": "What do you recommend?"
+            }
+         ]
+      },
+      {  
+         "id": 3,
+         "type":"Product",
+         "heading":"Recommendation (Sleep medical conditions)",
+         "content":"Using extra pillows or an adjustable bed to raise the head above the chest (or feet, in instances of poor circulation) can reduce sleep disturbances for a more restful night.",
+         "extra": "These products are ideal if you have medical sleep conditions:",
+         "visual": [],
+         "includeBed": 0,
+         "tracking": "page tracker",
+         "articles":[],
+         "products":[
+           {
+              "visual": "images/comfort/products/hylle-pillow-softer.jpg",
+              "tracking": "product clicked",
+              "destination": {
+                 "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/pillows/hylle-pillow-softer-art-10282725/?k=10282725+",
+                 "ieen": ""
+               },
+              "name": "HYLLE",
+              "description" : "Pillow, softer",
+              "price" : {
+                  "gben": "£15",
+                  "ieen": "€20"
+               }
+           },
+           {
+               "visual": "images/comfort/products/rolleka-memory-foam-pillow.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/pillows/r%C3%B6lleka-memory-foam-pillow-art-90269838/?k=90269838",
+                  "ieen": ""
+               },
+               "name": "RÖLLEKA",
+               "description" : "Memory foam pillow",
+               "price" : {
+                  "gben": "£15",
+                  "ieen": "€20"
+               }
+            },
+            {
+               "visual": "images/comfort/products/manviva-memory-foam.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/pillows/m%C3%A5nviva-memory-foam-pillow-art-80269928/?k=80269928",
+                  "ieen": ""
+                },
+               "name": "MÅNVIVA",
+               "description" : "Memory foam pillow",
+               "price" : {
+                   "gben": "£24",
+                   "ieen": "€27"
+                }
+            },
+            {
+                "visual": "images/comfort/products/kornvallmo-pillow-softer.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/pillows/kornvallmo-pillow-softer-art-90389845/?k=90389845",
+                   "ieen": ""
+                },
+                "name": "KORNVALLMO",
+                "description" : "Pillow, softer",
+                "price" : {
+                   "gben": "£50",
+                   "ieen": "€55"
+                }
+             },
+             {
+                "visual": "images/comfort/products/kornvallmo-pillow-firmer.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/pillows/kornvallmo-pillow-firmer-art-90389826/?k=90389826",
+                   "ieen": ""
+                 },
+                "name": "KORNVALLMO",
+                "description" : "Firmer",
+                "price" : {
+                    "gben": "£4.50",
+                    "ieen": "€5.00"
+                 }
+             }
+         ],
+         "ctas":[]
+      },
+      {  
+         "id": 4,
+         "type":"Question",
+         "heading":"Sleeping positions",
+         "content":"Sometimes the best sleeping position is the one that feels most comfortable for you – but when it comes to your health some positions are a lot better than others. Which position do you mainly sleep in?",
+         "extra": "",
+         "visual": ["IKEA_Sleep_essentials_v5_C4.svg", "IKEA_Sleep_essentials_v5_C6.svg", "IKEA_Sleep_essentials_v5_C7.svg", "IKEA_Sleep_essentials_v5_C8.svg"],
+         "includeBed": 1,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":9,
+               "label": "On my back"
+            },
+            {
+               "tracking": "button clicked",
+               "destination": 6,
+               "label": "On my side"
+            },
+            {
+               "tracking": "button clicked",
+               "destination": 5,
+               "label": "On my front"
+            }
+         ]
+      },
+      {  
+         "id": 5,
+         "type":"Question",
+         "heading":"Sleeping on your Front",
+         "content":"Sleeping on your front is generally considered the worst sleeping position because it puts strain on your neck and back.",
+         "extra": "",
+         "visual": ["IKEA_Sleep_essentials_v5_C4.svg"],
+         "includeBed": 1,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":9,
+               "label": "What’s the best position?"
+            }
+         ]
+      },
+      {  
+         "id": 6,
+         "type":"Question",
+         "heading":"Sleeping on your Side",
+         "content":"When sleeping on your side, are your legs out straight or are you curled up in a ball?",
+         "extra": "",
+         "visual": ["IKEA_Sleep_essentials_v5_C6.svg", "IKEA_Sleep_essentials_v5_C7.svg"],
+         "includeBed": 1,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":7,
+               "label": "Curled (foetal position)"
+            },
+            {
+               "tracking": "button clicked",
+               "destination": 8,
+               "label": "Straight"
+            }
+         ]
+      },
+      {  
+         "id": 7,
+         "type":"Question",
+         "heading":"Sleeping in the foetal position",
+         "content":"Sleeping in the foetal position is reported to be the most popular of all sleeping positions. However, although it comes with many of the same benefits as sleeping on your side, it also takes your spine out of neutral alignment. This increases the chance of pain-related sleep disturbances.",
+         "extra": "",
+         "visual": ["IKEA_Sleep_essentials_v5_C6.svg"],
+         "includeBed": 1,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":9,
+               "label": "What’s the best position?"
+            },
+            {
+               "tracking": "button clicked",
+               "destination": 8,
+               "label": "What about sleeping on your side, straight?"
+            }
+         ]
+      },
+      {  
+         "id": 8,
+         "type":"Question",
+         "heading":"Sleeping on your side, straight",
+         "content":"Sleeping on your side with your legs out straight is considered the second best position because it helps to keep the spine elongated. This position can also reduce snoring and acid reflux.",
+         "extra": "",
+         "visual": ["IKEA_Sleep_essentials_v5_C7.svg"],
+         "includeBed": 1,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":9,
+               "label": "What’s the best position?"
+            },
+            {
+               "tracking": "button clicked",
+               "destination": 12,
+               "label": "What do you recommend for sleeping on your side?"
+            }
+         ]
+      },
+      {  
+         "id": 9,
+         "type":"Question",
+         "heading":"Sleeping on your back",
+         "content":"Sleeping on your back is considered the best sleeping position because it gives your body great support and maintains the natural alignment of your head, neck, and spine throughout the night.",
+         "extra": "",
+         "visual": ["IKEA_Sleep_essentials_v5_C8.svg"],
+         "includeBed": 1,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":2,
+               "label": "Is there a downside?"
+            },
+            {
+               "tracking": "button clicked",
+               "destination": 10,
+               "label": "What do you recommend for sleeping on your back?"
+            }
+         ]
+      },
+      {  
+         "id": 10,
+         "type":"Product",
+         "heading":"Firm mattress",
+         "content":"Firm mattresses are better for larger people and stomach/back sleepers as a more solid surface provides greater body weight support.",
+         "extra": "Here are a few recommendations to get started:",
+         "visual": [""],
+         "tracking": "page tracker",
+         "articles":[],
+         "products":[
+            {
+               "visual": "images/comfort/products/hovag-pocket-sprung-mattress-firm.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/h%C3%B6v%C3%A5g-pocket-sprung-mattress-firm-dark-grey-art-60258761/?k=60258761+",
+                  "ieen": "https://www.ikea.com/ie/en/products/h%C3%B6v%C3%A5g-pocket-sprung-mattress-firm-dark-grey-art-60258761/?k=60258761+"
+                },
+               "name": "HÖVÅG",
+               "description" : "Double, Pocket sprung mattress, firm",
+               "price" : {
+                   "gben": "£190",
+                   "ieen": "€250"
+                }
+            },
+            {
+                "visual": "images/comfort/products/hyllestad-pocket-sprung-mattress-firm.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/hyllestad-pocket-sprung-mattress-firm-white-art-50425794/?k=50425794+",
+                   "ieen": "https://www.ikea.com/ie/en/products/hyllestad-pocket-sprung-mattress-firm-white-art-50425794/?k=50425794+"
+                },
+                "name": "HYLLESTAD",
+                "description" : "Double, Pocket sprung mattress, firm",
+                "price" : {
+                   "gben": "£200",
+                   "ieen": "€225"
+                }
+             },
+             {
+                "visual": "images/comfort/products/hokkasen-pocket-sprung-mattress-firm.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/hokk%C3%A5sen-pocket-sprung-mattress-firm-white-art-60425883/?k=60425883",
+                   "ieen": "https://www.ikea.com/ie/en/products/hokk%C3%A5sen-pocket-sprung-mattress-firm-white-art-60425883/?k=60425883"
+                 },
+                "name": "HOKKÅSEN",
+                "description" : "Double, Pocket sprung mattress, firm",
+                "price" : {
+                    "gben": "£400",
+                    "ieen": "€450"
+                 }
+             },
+             {
+                 "visual": "images/comfort/products/hidrasund-pocket-sprung-mattress-firm.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/hidrasund-pocket-sprung-mattress-firm-natural-art-20372711/?k=20372711+",
+                    "ieen": "https://www.ikea.com/ie/en/products/hidrasund-pocket-sprung-mattress-firm-natural-art-20372711/?k=20372711"
+                 },
+                 "name": "HIDRASUND",
+                 "description" : "Double, Pocket sprung mattress, firm",
+                 "price" : {
+                    "gben": "£650",
+                    "ieen": "€700"
+                 }
+              },
+              {
+                 "visual": "images/comfort/products/hovag-pocket-sprung-mattress-firm.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/h%C3%B6v%C3%A5g-pocket-sprung-mattress-firm-dark-grey-art-40258757/?k=40258757+",
+                    "ieen": "https://www.ikea.com/ie/en/products/h%C3%B6v%C3%A5g-pocket-sprung-mattress-firm-dark-grey-art-40258757/?k=40258757+"
+                  },
+                 "name": "HÖVÅG",
+                 "description" : "King, Pocket sprung mattress, firm",
+                 "price" : {
+                     "gben": "£240",
+                     "ieen": "€275"
+                  }
+              },
+              {
+                  "visual": "images/comfort/products/hyllestad-pocket-sprung-mattress-firm.jpg",
+                  "tracking": "product clicked",
+                  "destination": {
+                     "gben": "https://www.ikea.com/gb/en/products/hyllestad-pocket-sprung-mattress-firm-white-art-00425796/?k=00425796+",
+                     "ieen": "https://www.ikea.com/ie/en/products/hyllestad-pocket-sprung-mattress-firm-white-art-00425796/?k=00425796+"
+                  },
+                  "name": "HYLLESTAD",
+                  "description" : "King, Pocket sprung mattress, firm",
+                  "price" : {
+                     "gben": "£300",
+                     "ieen": "€350"
+                  }
+                },
+                {
+                   "visual": "images/comfort/products/hokkasen-pocket-sprung-mattress-firm.jpg",
+                   "tracking": "product clicked",
+                   "destination": {
+                      "gben": "https://www.ikea.com/gb/en/products/hokk%C3%A5sen-pocket-sprung-mattress-firm-white-art-10425885/?k=10425885+",
+                      "ieen": "https://www.ikea.com/ie/en/products/hokk%C3%A5sen-pocket-sprung-mattress-firm-white-art-10425885/?k=10425885+"
+                    },
+                   "name": "HOKKÅSEN",
+                   "description" : "King, Pocket sprung mattress, firm",
+                   "price" : {
+                       "gben": "£450",
+                       "ieen": "€500"
+                    }
+                },
+                {
+                    "visual": "images/comfort/products/hidrasund-pocket-sprung-mattress-firm.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/hidrasund-pocket-sprung-mattress-firm-natural-art-80372713/?k=80372713+",
+                       "ieen": "https://www.ikea.com/ie/en/products/hidrasund-pocket-sprung-mattress-firm-natural-art-80372713/?k=80372713+"
+                    },
+                    "name": "HIDRASUND",
+                    "description" : "King, Pocket sprung mattress, firm",
+                    "price" : {
+                       "gben": "£700",
+                       "ieen": "€750"
+                    }
+               },
+               {
+                   "visual": "images/comfort/products/hovag-pocket-sprung-mattress-firm-single.jpg",
+                   "tracking": "product clicked",
+                   "destination": {
+                      "gben": "https://www.ikea.com/gb/en/products/h%C3%B6v%C3%A5g-pocket-sprung-mattress-firm-dark-grey-art-00258759/?k=00258759+",
+                      "ieen": "https://www.ikea.com/ie/en/products/h%C3%B6v%C3%A5g-pocket-sprung-mattress-firm-dark-grey-art-00258759/?k=00258759+"
+                   },
+                   "name": "HÖVÅG",
+                   "description" : "Single, Pocket sprung mattress, firm",
+                   "price" : {
+                      "gben": "£125",
+                      "ieen": "€150"
+                   }
+              },
+              {
+                  "visual": "images/comfort/products/morgedal-foam-mattress-firm-single.jpg",
+                  "tracking": "product clicked",
+                  "destination": {
+                     "gben": "https://www.ikea.com/gb/en/products/morgedal-foam-mattress-firm-dark-grey-art-20283791/?k=20283791+",
+                     "ieen": "https://www.ikea.com/ie/en/products/morgedal-foam-mattress-firm-dark-grey-art-20283791/?k=20283791+"
+                  },
+                  "name": "MORGEDAL",
+                  "description" : "Single, Foam mattress, firm",
+                  "price" : {
+                     "gben": "£125",
+                     "ieen": "€175"
+                  }
+             },
+             {
+                 "visual": "images/comfort/products/hyllestad-pocket-sprung-mattress-firm-single.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/hyllestad-pocket-sprung-mattress-firm-white-art-60425798/?k=60425798",
+                    "ieen": "https://www.ikea.com/ie/en/products/hyllestad-pocket-sprung-mattress-firm-white-art-60425798/?k=60425798"
+                 },
+                 "name": "HYLLESTAD",
+                 "description" : "Single, Pocket sprung mattress, firm",
+                 "price" : {
+                    "gben": "£200",
+                    "ieen": "€225"
+                 }
+            },
+            {
+                "visual": "images/comfort/products/hidrasund-pocket-sprung-mattress-firm-single.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/hidrasund-pocket-sprung-mattress-firm-natural-art-30372715/?k=30372715",
+                   "ieen": "https://www.ikea.com/ie/en/products/hidrasund-pocket-sprung-mattress-firm-natural-art-30372715/?k=30372715"
+                },
+                "name": "HIDRASUND",
+                "description" : "Single, Pocket sprung mattress, firm",
+                "price" : {
+                   "gben": "£450",
+                   "ieen": "€500"
+                }
+           }
+         ],
+         "ctas":[
+           {
+              "tracking": "button clicked",
+              "destination": 11,
+              "label": "I don’t consider myself to be large"
+           }
+         ]
+      },
+      {  
+         "id": 11,
+         "type":"Product",
+         "heading":"Medium Firm Mattress",
+         "content":"A medium firm mattress is suited to smaller people and side sleepers as they need a little less mattress support for their body weight.",
+         "extra": "Here are a few recommendations to get started:",
+         "visual": [""],
+         "tracking": "page tracker",
+         "articles":[
+            {
+               "visual": "images/comfort/articles/ikea-sleeping-positions.jpg",
+               "tracking": "article clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/ideas/the-low-down-on-sleeping-positions-1364672951770/",
+                  "ieen": "https://www.ikea.com/ie/en/ideas/the-low-down-on-sleeping-positions-1364669514020/"
+                },
+               "name": "The low-down on sleeping positions",
+               "description" : "Most of us have a favourite way of sleeping, but which positions help us get good-quality sleep?"
+            }
+         ],
+         "products":[
+            {
+               "visual": "images/comfort/products/hovag-pocket-sprung-mattress-medium-firm.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hövåg-pocket-sprung-mattress-medium-firm-dark-grey-art-20258763/?k=20258763+",
+                  "ieen": "https://www.ikea.com/ie/en/products/mattresses/mattresses-toppers/h%C3%B6v%C3%A5g-pocket-sprung-mattress-medium-firm-dark-grey-art-20258763/?k=20258763"
+                },
+               "name": "HÖVÅG",
+               "description" : "Double, Pocket sprung mattress, medium firm",
+               "price" : {
+                   "gben": "£190",
+                   "ieen": "€250"
+                }
+            },
+            {
+                "visual": "images/comfort/products/hyllestad-pocket-sprung-mattress-medium-firm.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hyllestad-pocket-sprung-mattress-medium-firm-white-art-20425795/?k=20425795+",
+                   "ieen": "https://www.ikea.com/ie/en/products/mattresses/mattresses-toppers/hyllestad-pocket-sprung-mattress-medium-firm-white-art-20425795/?k=20425795"
+                },
+                "name": "HYLLESTAD",
+                "description" : "Double, Pocket sprung mattress, medium firm",
+                "price" : {
+                   "gben": "£250",
+                   "ieen": "€300"
+                }
+             },
+             {
+                "visual": "images/comfort/products/hokkasen-pocket-sprung-mattress-medium-firm.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hokkåsen-pocket-sprung-mattress-medium-firm-white-art-40425884/?k=40425884+",
+                   "ieen": "https://www.ikea.com/ie/en/products/mattresses/mattresses-toppers/hokk%C3%A5sen-pocket-sprung-mattress-medium-firm-white-art-40425884/?k=40425884"
+                 },
+                "name": "HOKKÅSEN",
+                "description" : "Double, Pocket sprung mattress, medium firm",
+                "price" : {
+                    "gben": "£400",
+                    "ieen": "€450"
+                 }
+             },
+             {
+                 "visual": "images/comfort/products/hidrasund-pocket-sprung-mattress-medium-firm.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hidrasund-pocket-sprung-mattress-medium-firm-natural-art-60372709/?k=60372709+",
+                    "ieen": "https://www.ikea.com/ie/en/products/mattresses/mattresses-toppers/hidrasund-pocket-sprung-mattress-medium-firm-natural-art-60372709/?k=60372709"
+                 },
+                 "name": "HIDRASUND",
+                 "description" : "Double, Pocket sprung mattress, medium firm",
+                 "price" : {
+                    "gben": "£650",
+                    "ieen": "€700"
+                 }
+              },
+              {
+                 "visual": "images/comfort/products/hovag-pocket-sprung-mattress-medium-firm.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hövåg-pocket-sprung-mattress-medium-firm-dark-grey-art-20258758/?k=20258758+",
+                    "ieen": "https://www.ikea.com/ie/en/products/mattresses/mattresses-toppers/h%C3%B6v%C3%A5g-pocket-sprung-mattress-medium-firm-dark-grey-art-20258758/?k=20258758"
+                  },
+                 "name": "HÖVÅG",
+                 "description" : "King, Pocket sprung mattress, medium firm",
+                 "price" : {
+                     "gben": "£240",
+                     "ieen": "€275"
+                  }
+              },
+              {
+                  "visual": "images/comfort/products/hyllestad-pocket-sprung-mattress-medium-firm.jpg",
+                  "tracking": "product clicked",
+                  "destination": {
+                     "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hyllestad-pocket-sprung-mattress-medium-firm-white-art-80425797/?k=80425797+",
+                     "ieen": "https://www.ikea.com/ie/en/products/mattresses/mattresses-toppers/hyllestad-pocket-sprung-mattress-medium-firm-white-art-80425797/?k=80425797"
+                  },
+                  "name": "HYLLESTAD",
+                  "description" : "King, Pocket sprung mattress, medium firm",
+                  "price" : {
+                     "gben": "£300",
+                     "ieen": "€350"
+                  }
+               },
+               {
+                    "visual": "images/comfort/products/hokkasen-pocket-sprung-mattress-medium-firm.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "hhttps://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hokkåsen-pocket-sprung-mattress-medium-firm-white-art-90425886/?k=90425886+",
+                       "ieen": "https://www.ikea.com/ie/en/products/mattresses/mattresses-toppers/hokk%C3%A5sen-pocket-sprung-mattress-medium-firm-white-art-90425886/?k=90425886"
+                    },
+                    "name": "HOKKÅSEN",
+                    "description" : "King, Pocket sprung mattress, medium firm",
+                    "price" : {
+                       "gben": "£450",
+                       "ieen": "€500"
+                    }
+               },
+               {
+                    "visual": "images/comfort/products/hidrasund-pocket-sprung-mattress-medium-firm.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hidrasund-pocket-sprung-mattress-medium-firm-natural-art-00372712/?k=00372712+",
+                       "ieen": "https://www.ikea.com/ie/en/products/mattresses/mattresses-toppers/hidrasund-pocket-sprung-mattress-medium-firm-natural-art-00372712/?k=003.727.12"
+                    },
+                    "name": "HIDRASUND",
+                    "description" : "King, Pocket sprung mattress, medium firm",
+                    "price" : {
+                       "gben": "£700",
+                       "ieen": "€750"
+                    }
+               },
+               {
+                    "visual": "images/comfort/products/hovag-pocket-sprung-mattress-medium-firm-single.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/h%C3%B6v%C3%A5g-pocket-sprung-mattress-medium-firm-dark-grey-art-80258760/?k=80258760",
+                       "ieen": "https://www.ikea.com/ie/en/products/h%C3%B6v%C3%A5g-pocket-sprung-mattress-medium-firm-dark-grey-art-80258760/?k=80258760+"
+                    },
+                    "name": "HÖVÅG",
+                    "description" : "Single, Pocket sprung mattress, medium firm",
+                    "price" : {
+                       "gben": "£125",
+                       "ieen": "€150"
+                    }
+               },
+               {
+                    "visual": "images/comfort/products/morgedal-foam-mattress-firm-single.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/morgedal-memory-foam-mattress-medium-firm-dark-grey-art-50283799/?k=50283799+",
+                       "ieen": "https://www.ikea.com/ie/en/products/morgedal-memory-foam-mattress-medium-firm-dark-grey-art-50283799/?k=50283799"
+                    },
+                    "name": "MORGEDAL",
+                    "description" : "Single, Memory foam mattress, medium firm",
+                    "price" : {
+                       "gben": "£125",
+                       "ieen": "€175"
+                    }
+               },
+               {
+                    "visual": "images/comfort/products/hyllestad-pocket-sprung-mattress-medium-firm-single.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/morgedal-memory-foam-mattress-medium-firm-dark-grey-art-50283799/?k=50283799",
+                       "ieen": "https://www.ikea.com/ie/en/products/hyllestad-pocket-sprung-mattress-medium-firm-white-art-40425799/?k=40425799+"
+                    },
+                    "name": "HYLLESTAD",
+                    "description" : "Single, Pocket sprung mattress, medium firm",
+                    "price" : {
+                       "gben": "£200",
+                       "ieen": "€225"
+                    }
+               },
+               {
+                    "visual": "images/comfort/products/hidrasund-pocket-sprung-mattress-medium-firm-single.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/hidrasund-pocket-sprung-mattress-medium-firm-natural-art-60372714/?k=60372714+",
+                       "ieen": "https://www.ikea.com/ie/en/products/hidrasund-pocket-sprung-mattress-medium-firm-natural-art-60372714/?k=60372714"
+                    },
+                    "name": "HIDRASUND",
+                    "description" : "Single, Pocket sprung mattress, medium firm",
+                    "price" : {
+                       "gben": "£450",
+                       "ieen": "€500"
+                    }
+               }
+         ],
+         "ctas":[
+           {
+              "tracking": "button clicked",
+              "destination": 10,
+              "label": "I don’t consider myself to be small"
+           }
+         ]
+      },
+      {  
+         "id": 12,
+         "type":"Product",
+         "heading":"Recommendation (Sleeping on your side)",
+         "content":"There’s no such thing as one-size-fits-all comfort, because everybody is different. Choose a pillow that continues the natural line of your spine, all the way from your lower back to your head. You’ll know it’s right because your neck and shoulders will be relaxed.",
+         "extra": "Find your perfect mattress and pillow combination and you’ll spend longer in deep sleep, then wake feeling more rested.",
+         "visual": "",
+         "tracking": "page tracker",
+         "articles":[
+            {
+               "visual": "images/comfort/articles/how-to-get-more-comfortable-when-sleeping.jpg",
+               "tracking": "article clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/ideas/how-to-get-more-comfortable-when-sleeping-1364672977994/",
+                  "ieen": "https://www.ikea.com/ie/en/ideas/how-to-get-more-comfortable-when-sleeping-1364669358183/"
+                },
+               "name": "How to get more comfortable when sleeping",
+               "description" : "Being comfy is key to getting a good night’s sleep – but how do you get more comfortable in bed?"
+            }
+         ],
+         "products":[
+            {
+               "visual": "images/comfort/products/rosenstjarna-pillow-firmer.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/pillows/rosenstj%C3%A4rna-pillow-firmer-art-50377279/?k=50377279",
+                  "ieen": ""
+                },
+               "name": "ROSENSTJÄRNA",
+               "description" : "Pillow, firmer",
+               "price" : {
+                   "gben": "£11",
+                   "ieen": "€15"
+                }
+            },
+            {
+                "visual": "images/comfort/products/hylle-pillow-firmer.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/pillows/hylle-pillow-firmer-art-80282722/?k=80282722",
+                   "ieen": ""
+                },
+                "name": "HYLLE",
+                "description" : "Pillow, firmer",
+                "price" : {
+                   "gben": "£20",
+                   "ieen": "€25"
+                }
+             },
+             {
+                "visual": "images/comfort/products/hampdan-pillow-firmer.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/childrens-ikea-products/children-8-12/childrens-textile-8-12/hampd%C3%A5n-pillow-firmer-art-00269734/",
+                   "ieen": ""
+                 },
+                "name": "HAMPDÅN",
+                "description" : "Pillow, firmer",
+                "price" : {
+                    "gben": "£6",
+                    "ieen": "€8"
+                 }
+             },
+             {
+                 "visual": "images/comfort/products/guldpalm-pillow-firmer.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/pillows/guldpalm-pillow-softer-art-00269545/?k=00269545+",
+                    "ieen": ""
+                 },
+                 "name": "GULDPALM",
+                 "description" : "Pillow, firmer",
+                 "price" : {
+                    "gben": "£35",
+                    "ieen": "€45"
+                 }
+              }
+         ],
+         "ctas":[
+           {
+              "tracking": "button clicked",
+              "destination": 10,
+              "label": "What about mattress firmness?"
+           }
+         ]
+      }
+    ]
+ }

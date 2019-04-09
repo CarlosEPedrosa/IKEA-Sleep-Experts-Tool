@@ -1,0 +1,135 @@
+{  
+   "name":"IKEA Sleep Experts - Noise",
+   "screens":[
+      {  
+         "id": 0,
+         "type":"Question",
+         "heading":"Noise",
+         "content":"Sounds that reach the brain during sleep can stimulate the waking centre and keep your body on high alert. In fact, recent research suggests that the sleeping brain is always listening out for noise.",
+         "visual": ["IKEA_Sleep_essentials_v5_N1.svg"],
+         "mobile": ["IKEA_Sleep_essentials_v5_N1-mobile.png"],
+         "includeBed": 0,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":1,
+               "label": "Tell me more about the sleeping brain"
+            },
+            {
+               "tracking": "button clicked",
+               "destination":2,
+               "label": "How do I reduce noise?"
+            }
+         ]
+      },
+      {  
+         "id": 1,
+         "type":"Question",
+         "heading":"The sleeping brain",
+         "content":"The sleeping brain has the greatest sensitivity during the Rapid Eye Movement (REM) sleep stage. REM is important to your sleep cycle because it stimulates the areas of your brain that are essential in learning and retaining memories.",
+         "visual": ["IKEA_Sleep_essentials_v5_N2.svg"],
+         "mobile": ["IKEA_Sleep_essentials_v5_N2-mobile.png"],
+         "includeBed": 0,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":2,
+               "label": "How do i reduce noise?"
+            }
+         ]
+      },
+      {  
+         "id": 2,
+         "type":"Question",
+         "heading":"Noise Reduction",
+         "content":"The first step is to tackle the ways that noise gets into your room. Check doors and windows to make sure they shut tight. While double or triple glazing can be a big help if you have something like an airport or main road nearby, don't forget that earplugs may be far more effective – especially if the noise is only temporary.",
+         "visual": ["IKEA_Sleep_essentials_v5_N3.png"],
+         "includeBed": 0,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":3,
+               "label": "How do you help with noise?"
+            }
+         ]
+      },
+      {  
+         "id": 3,
+         "type":"Product",
+         "heading":"Noise Absorption",
+         "content":"Once you've reduced outside noise as much as you can, try adjusting the interior of your room so sound waves are absorbed rather than reflected by materials inside. Carpets are better than wooden floors but rugs will work a treat too. Curtains are good at absorbing sound but make sure they're dense and heavy, reaching right down to the floor.",
+         "extra": "",
+         "visual": "",
+         "tracking": "page tracker",
+         "articles":[],
+         "products":[
+            {
+               "visual": "images/noise/products/vindum-rug-high-pile-dark-grey.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/rugs/vindum-rug-high-pile-dark-grey-art-00344979/?k=+00344979+",
+                  "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/rugs/vindum-rug-high-pile-dark-grey-art-00344979/?k=+00344979+"
+                },
+               "name": "VINDUM",
+               "description" : "Rug",
+               "price" : {
+                   "gben": "£80",
+                   "ieen": "€80"
+                }
+            },
+            {
+                "visual": "images/noise/products/trattviva-bedspread-grey.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/bedspread/trattviva-bedspread-grey-art-70349681/?k=70349681",
+                   "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/bedspread/trattviva-bedspread-grey-art-70349681/?k=70349681"
+                },
+                "name": "TRATTVIVA",
+                "description" : "Grey, Bedspread",
+                "price" : {
+                   "gben": "£25",
+                   "ieen": "€25"
+                }
+             },
+             {
+                "visual": "images/noise/products/trattviva-bedspread-light-blue.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/bedspread/trattviva-bedspread-light-blue-art-20349339/?k=20349339",
+                   "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/bedspread/trattviva-bedspread-light-blue-art-20349339/?k=20349339"
+                 },
+                "name": "TRATTVIVA",
+                "description" : "Light blue, Bedspread",
+                "price" : {
+                    "gben": "£25",
+                    "ieen": "€25"
+                 }
+             },
+             {
+                 "visual": "images/noise/products/sanela-curtains-dark-red.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/curtains-blinds/sanela-curtains-1-pair-dark-red-art-30414027/?k=30414027+",
+                    "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/curtains-blinds/sanela-curtains-1-pair-dark-red-art-30414027/?k=30414027+"
+                 },
+                 "name": "SANELA",
+                 "description" : "Curtains",
+                 "price" : {
+                    "gben": "£40",
+                    "ieen": "€50"
+                 }
+              }
+         ],
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":"essentials",
+               "label": "Discover more"
+            }
+         ]
+      }
+    ]
+ }

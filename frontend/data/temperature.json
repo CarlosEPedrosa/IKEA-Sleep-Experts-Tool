@@ -1,0 +1,461 @@
+{  
+   "name":"IKEA Sleep Experts - Temperature",
+   "screens":[
+      {  
+         "id": 0,
+         "type":"Question",
+         "heading":"Temperature",
+         "content":"Your body temperature plays an important role in how you sleep. Just a 1°C drop at the start of the night can help you to fall asleep&nbsp;quickly.",
+         "visual": ["IKEA_Sleep_essentials_v5_T1.svg"],
+         "includeBed": 0,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":1,
+               "label": "Tell me more"
+            }
+         ]
+      },
+      {  
+         "id": 1,
+         "type":"Question",
+         "heading":"The ideal temperature for sleep",
+         "content":"The ideal room temperature for a good night’s sleep is 16-17°C. Set your perfect temperature by turning the heating off or opening a window at least an hour before you want to drift off.",
+         "visual": ["IKEA_Sleep_essentials_v5_T2.svg"],
+         "includeBed": 0,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":2,
+               "label": " What about staying cool?"
+            }
+         ]
+      },
+      {  
+         "id": 2,
+         "type":"Product",
+         "heading":"Layer up to cool down",
+         "content":"Using several blankets (rather than single duvets) helps you stay at just the right temperature as it’s easier to control. A sprung mattress allows air to circulate, which can help you stay cool during the night.",
+         "extra": "",
+         "visual": "",
+         "tracking": "page tracker",
+         "articles":[
+            {
+               "visual": "images/temperature/articles/the-perfect-temperature-for-a-good-quality-sleep.jpg",
+               "tracking": "article clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/ideas/how-to-achieve-the-perfect-temperature-for-good-quality-sleep-1364672982821/",
+                  "ieen": "https://www.ikea.com/ie/en/ideas/how-to-achieve-the-perfect-temperature-for-good-quality-sleep-1364670873564/"
+                },
+               "name": "How to achieve the perfect temperature for good-quality sleep",
+               "description" : "Follow these five easy tips to ensure your temperature doesn’t get in the way of a good night’s sleep."
+            }
+         ],
+         "products":[
+            {
+               "visual": "images/temperature/products/hovag-pocket-sprung-mattress-medium-firm.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hövåg-pocket-sprung-mattress-medium-firm-dark-grey-art-20258763/?k=20258763+",
+                  "ieen": ""
+                },
+               "name": "HÖVÅG",
+               "description" : "Double, Pocket sprung mattress, medium firm",
+               "price" : {
+                   "gben": "£190",
+                   "ieen": "€250"
+                }
+            },
+            {
+                "visual": "images/temperature/products/hyllestad-pocket-sprung-mattress-medium-firm.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hyllestad-pocket-sprung-mattress-medium-firm-white-art-20425795/?k=20425795+",
+                   "ieen": ""
+                },
+                "name": "HYLLESTAD",
+                "description" : "Double, Pocket sprung mattress, medium firm",
+                "price" : {
+                   "gben": "£250",
+                   "ieen": "€300"
+                }
+             },
+             {
+                "visual": "images/temperature/products/hokkasen-pocket-sprung-mattress-medium-firm.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hokkåsen-pocket-sprung-mattress-medium-firm-white-art-40425884/?k=40425884+",
+                   "ieen": ""
+                 },
+                "name": "HOKKÅSEN",
+                "description" : "Double, Pocket sprung mattress, medium firm",
+                "price" : {
+                    "gben": "£400",
+                    "ieen": "€450"
+                 }
+             },
+             {
+                 "visual": "images/temperature/products/hidrasund-pocket-sprung-mattress-medium-firm.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hidrasund-pocket-sprung-mattress-medium-firm-natural-art-60372709/?k=60372709+",
+                    "ieen": ""
+                 },
+                 "name": "HIDRASUND",
+                 "description" : "Double, Pocket sprung mattress, medium firm",
+                 "price" : {
+                    "gben": "£650",
+                    "ieen": "€700"
+                 }
+              },
+              {
+                 "visual": "images/temperature/products/hovag-pocket-sprung-mattress-medium-firm.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hövåg-pocket-sprung-mattress-medium-firm-dark-grey-art-20258758/?k=20258758+",
+                    "ieen": ""
+                  },
+                 "name": "HÖVÅG",
+                 "description" : "King, Pocket sprung mattress, medium firm",
+                 "price" : {
+                     "gben": "£240",
+                     "ieen": "€275"
+                  }
+              },
+              {
+                  "visual": "images/temperature/products/hyllestad-pocket-sprung-mattress-medium-firm.jpg",
+                  "tracking": "product clicked",
+                  "destination": {
+                     "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hyllestad-pocket-sprung-mattress-medium-firm-white-art-80425797/?k=80425797+",
+                     "ieen": ""
+                  },
+                  "name": "HYLLESTAD",
+                  "description" : "King, Pocket sprung mattress, medium firm",
+                  "price" : {
+                     "gben": "£300",
+                     "ieen": "€350"
+                  }
+               },
+               {
+                    "visual": "images/temperature/products/hokkasen-pocket-sprung-mattress-medium-firm.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hokkåsen-pocket-sprung-mattress-medium-firm-white-art-90425886/?k=90425886+",
+                       "ieen": ""
+                    },
+                    "name": "HOKKÅSEN",
+                    "description" : "King, Pocket sprung mattress, medium firm",
+                    "price" : {
+                       "gben": "£450",
+                       "ieen": "€500"
+                    }
+               },
+               {
+                    "visual": "images/temperature/products/hidrasund-pocket-sprung-mattress-medium-firm.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hidrasund-pocket-sprung-mattress-medium-firm-natural-art-00372712/?k=00372712+",
+                       "ieen": ""
+                    },
+                    "name": "HIDRASUND",
+                    "description" : "King, Pocket sprung mattress, medium firm",
+                    "price" : {
+                       "gben": "£700",
+                       "ieen": "€..."
+                    }
+               },
+               {
+                    "visual": "images/temperature/products/hovag-pocket-sprung-mattress-medium-firm-single.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/h%C3%B6v%C3%A5g-pocket-sprung-mattress-medium-firm-dark-grey-art-80258760/?k=80258760",
+                       "ieen": "https://www.ikea.com/ie/en/products/h%C3%B6v%C3%A5g-pocket-sprung-mattress-medium-firm-dark-grey-art-80258760/?k=80258760+"
+                    },
+                    "name": "HÖVÅG",
+                    "description" : "Single, Pocket sprung mattress, medium firm",
+                    "price" : {
+                       "gben": "£125",
+                       "ieen": "€150"
+                    }
+               },
+               {
+                    "visual": "images/temperature/products/morgedal-foam-mattress-firm-dark-grey-single.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/morgedal-memory-foam-mattress-medium-firm-dark-grey-art-50283799/?k=50283799+",
+                       "ieen": "https://www.ikea.com/ie/en/products/morgedal-memory-foam-mattress-medium-firm-dark-grey-art-50283799/?k=50283799"
+                    },
+                    "name": "MORGEDAL",
+                    "description" : "Single, Memory foam mattress, medium firm",
+                    "price" : {
+                       "gben": "£125",
+                       "ieen": "€175"
+                    }
+               },
+               {
+                    "visual": "images/temperature/products/hyllestad-pocket-sprung-mattress-medium-firm-single.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hyllestad-pocket-sprung-mattress-medium-firm-white-art-40425799/?k=40425799+",
+                       "ieen": "https://www.ikea.com/ie/en/products/mattresses/mattresses-toppers/hyllestad-pocket-sprung-mattress-medium-firm-white-art-40425799/?k=40425799+"
+                    },
+                    "name": "HYLLESTAD",
+                    "description" : "Single, Pocket sprung mattress, medium firm",
+                    "price" : {
+                       "gben": "£200",
+                       "ieen": "€225"
+                    }
+               },
+               {
+                    "visual": "images/temperature/products/hidrasund-pocket-sprung-mattress-medium-firm-single.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/hidrasund-pocket-sprung-mattress-medium-firm-natural-art-60372714/?k=60372714+",
+                       "ieen": "https://www.ikea.com/ie/en/products/hidrasund-pocket-sprung-mattress-medium-firm-natural-art-60372714/?k=60372714"
+                    },
+                    "name": "HIDRASUND",
+                    "description" : "Single, Pocket sprung mattress, medium firm",
+                    "price" : {
+                       "gben": "£450",
+                       "ieen": "€500"
+                    }
+               },
+               {
+                    "visual": "images/temperature/products/hamarvik-sprung-mattress-medium-firm-dark-beige.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/mattresses/mattresses-toppers/hamarvik-sprung-mattress-medium-firm-dark-beige-art-40258724/?k=40258724",
+                       "ieen": "https://www.ikea.com/ie/en/products/mattresses/mattresses-toppers/hamarvik-sprung-mattress-medium-firm-dark-beige-art-40258724/?k=40258724"
+                    },
+                    "name": "HAMARVIK",
+                    "description" : "Single, Sprung mattress, medium firm",
+                    "price" : {
+                       "gben": "£100",
+                       "ieen": "€100"
+                    }
+               },
+               {
+                    "visual": "images/temperature/products/grusblad-duvet-75-tog.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/quilts/grusblad-duvet-7.5-tog-art-70271757/?k=70271757",
+                       "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/duvets-quilts/grusblad-duvet-7.5-tog-art-70271757/?k=70271757"
+                    },
+                    "name": "GRUSBLAD",
+                    "description" : "Duvet, 7.5 TOG",
+                    "price" : {
+                       "gben": "£12",
+                       "ieen": "€15"
+                    }
+               },
+               {
+                    "visual": "images/temperature/products/rodtoppa-duvet-75-tog.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/quilts/r%C3%B6dtoppa-duvet-7.5-tog-art-90271539/?k=90271539",
+                       "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/duvets-quilts/r%C3%B6dtoppa-duvet-7.5-tog-art-90271539/?k=90271539"
+                    },
+                    "name": "RÖDTOPPA",
+                    "description" : "Duvet, 7.5 TOG",
+                    "price" : {
+                       "gben": "£35",
+                       "ieen": "€40"
+                    }
+               },
+               {
+                    "visual": "images/temperature/products/mossruta-quilt-cover-and-2-pillowcases-multicolour-check.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/bedlinen/mossruta-quilt-cover-and-2-pillowcases-multicolour-check-art-20412590/?k=20412590",
+                       "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/bedlinen/mossruta-quilt-cover-and-2-pillowcases-multicolour-check-art-20412590/?k=20412590"
+                    },
+                    "name": "MOSSRUTA",
+                    "description" : "Quilt cover pack",
+                    "price" : {
+                       "gben": "£25",
+                       "ieen": "€25"
+                    }
+               },
+               {
+                    "visual": "images/temperature/products/jattevallmo-quilt-cover-and-2-pillowcases-white-blue.jpg",
+                    "tracking": "product clicked",
+                    "destination": {
+                       "gben": "https://www.ikea.com/gb/en/products/textiles-rugs/bedlinen/j%C3%A4ttevallmo-quilt-cover-and-2-pillowcases-white-blue-art-60399695/?k=60399695",
+                       "ieen": "https://www.ikea.com/ie/en/products/textiles-rugs/bedlinen/j%C3%A4ttevallmo-quilt-cover-and-2-pillowcases-white-blue-art-60399695/?k=60399695"
+                    },
+                    "name": "JÄTTEVALLMO",
+                    "description" : "Quilt cover pack",
+                    "price" : {
+                       "gben": "£20",
+                       "ieen": "€25"
+                    }
+               }
+         ],
+         "ctas":[
+           {
+              "tracking": "button clicked",
+              "destination": 3,
+              "label": "What about keeping warm?"
+           }
+         ]
+      },
+      {  
+         "id": 3,
+         "type":"Product",
+         "heading":"Keeping warm",
+         "content":"If you often struggle to stay warm and cosy, a foam or memory foam mattress can work wonders as they trap and retain heat.",
+         "extra": "",
+         "visual": "",
+         "tracking": "page tracker",
+         "articles":[
+            {
+               "visual": "images/temperature/articles/the-perfect-temperature-for-a-good-quality-sleep.jpg",
+               "tracking": "article clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/ideas/how-to-achieve-the-perfect-temperature-for-good-quality-sleep-1364672982821/",
+                  "ieen": "https://www.ikea.com/ie/en/ideas/how-to-achieve-the-perfect-temperature-for-good-quality-sleep-1364670873564/"
+                },
+               "name": "How to achieve the perfect temperature for good-quality sleep",
+               "description" : "Follow these five easy tips to ensure your temperature doesn’t get in the way of a good night’s sleep."
+            }
+         ],
+         "products":[
+            {
+               "visual": "images/temperature/products/moshult-foam-mattress-firm-white.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/childrens-ikea-products/children-8-12/childrens-mattresses-8-12/moshult-foam-mattress-firm-white-art-00278309/?k=00278309",
+                  "ieen": "https://www.ikea.com/ie/en/products/childrens-ikea-products/children-8-12/childrens-mattresses-8-12/moshult-foam-mattress-firm-white-art-00278309/?k=00278309"
+                },
+               "name": "MOSHULT",
+               "description" : "Double, Foam mattress, firm",
+               "price" : {
+                   "gben": "£80",
+                   "ieen": "€90"
+                }
+            },
+            {
+                "visual": "images/temperature/products/malfors-foam-mattress-medium-firm-white.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/childrens-ikea-products/children-8-12/childrens-mattresses-8-12/malfors-foam-mattress-medium-firm-white-art-30277426/?k=30277426",
+                   "ieen": "https://www.ikea.com/ie/en/products/childrens-ikea-products/children-8-12/childrens-mattresses-8-12/malfors-foam-mattress-medium-firm-white-art-30277426/?k=30277426"
+                },
+                "name": "MALFORS",
+                "description" : "Double, Foam mattress, medium firm",
+                "price" : {
+                   "gben": "£100",
+                   "ieen": "€145"
+                }
+             },
+             {
+                "visual": "images/temperature/products/morgedal-foam-mattress-firm-dark-grey.jpg",
+                "tracking": "product clicked",
+                "destination": {
+                   "gben": "https://www.ikea.com/gb/en/products/morgedal-foam-mattress-firm-dark-grey-art-80283788/?k=80283788",
+                   "ieen": "https://www.ikea.com/ie/en/products/morgedal-foam-mattress-firm-dark-grey-art-80283788/?k=80283788"
+                 },
+                "name": "MORGEDAL",
+                "description" : "Double, foam mattress, firm",
+                "price" : {
+                    "gben": "£165",
+                    "ieen": "€225"
+                 }
+             },
+             {
+                 "visual": "images/temperature/products/morgedal-memory-foam-mattress-medium-firm-dark-grey.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/morgedal-memory-foam-mattress-medium-firm-dark-grey-art-10283796/?k=10283796",
+                    "ieen": "https://www.ikea.com/ie/en/products/morgedal-memory-foam-mattress-medium-firm-dark-grey-art-10283796/?k=10283796"
+                 },
+                 "name": "MORGEDAL",
+                 "description" : "King, memory foam mattress, medium firm",
+                 "price" : {
+                    "gben": "£195",
+                    "ieen": "€250"
+                 }
+              },
+              {
+                 "visual": "images/temperature/products/morgedal-foam-mattress-firm-dark-grey.jpg",
+                 "tracking": "product clicked",
+                 "destination": {
+                    "gben": "https://www.ikea.com/gb/en/products/morgedal-memory-foam-mattress-medium-firm-dark-grey-art-10283796/?k=10283796",
+                    "ieen": "https://www.ikea.com/ie/en/products/morgedal-memory-foam-mattress-medium-firm-dark-grey-art-10283796/?k=10283796"
+                  },
+                 "name": "MORGEDAL",
+                 "description" : "King, foam mattress, firm",
+                 "price" : {
+                     "gben": "£195",
+                     "ieen": "€250"
+                  }
+              },
+              {
+                  "visual": "images/temperature/products/moshult-foam-mattress-firm-white-single.jpg",
+                  "tracking": "product clicked",
+                  "destination": {
+                     "gben": "https://www.ikea.com/gb/en/products/childrens-ikea-products/children-8-12/childrens-mattresses-8-12/moshult-foam-mattress-firm-white-art-20278308/?k=20278308",
+                     "ieen": "https://www.ikea.com/ie/en/products/childrens-ikea-products/children-8-12/childrens-mattresses-8-12/moshult-foam-mattress-firm-white-art-20278308/?k=20278308"
+                  },
+                  "name": "MOSHULT",
+                  "description" : "Single, foam mattress, firm",
+                  "price" : {
+                     "gben": "£65",
+                     "ieen": "€65"
+                  }
+              },
+              {
+                  "visual": "images/temperature/products/malfors-foam-mattress-medium-firm-white-single.jpg",
+                  "tracking": "product clicked",
+                  "destination": {
+                     "gben": "https://www.ikea.com/gb/en/products/childrens-ikea-products/children-8-12/childrens-mattresses-8-12/malfors-foam-mattress-medium-firm-white-art-10277427/?k=10277427",
+                     "ieen": "https://www.ikea.com/ie/en/products/childrens-ikea-products/children-8-12/childrens-mattresses-8-12/malfors-foam-mattress-medium-firm-white-art-10277427/?k=10277427"
+                  },
+                  "name": "MALFORS",
+                  "description" : "Single, foam mattress, firm",
+                  "price" : {
+                     "gben": "£85",
+                     "ieen": "€85"
+                  }
+               },
+              {
+                  "visual": "images/temperature/products/morgedal-foam-mattress-firm-dark-grey-single.jpg",
+                  "tracking": "product clicked",
+                  "destination": {
+                     "gben": "https://www.ikea.com/gb/en/products/morgedal-foam-mattress-firm-dark-grey-art-20283791/?k=20283791",
+                     "ieen": "https://www.ikea.com/ie/en/products/morgedal-foam-mattress-firm-dark-grey-art-20283791/?k=20283791"
+                  },
+                  "name": "MORGEDAL",
+                  "description" : "Single, foam mattress, firm",
+                  "price" : {
+                     "gben": "£125",
+                     "ieen": "€175"
+                  }
+               },
+              {
+                  "visual": "images/temperature/products/morgedal-foam-mattress-firm-dark-grey-single.jpg",
+                  "tracking": "product clicked",
+                  "destination": {
+                     "gben": "https://www.ikea.com/gb/en/products/morgedal-memory-foam-mattress-medium-firm-dark-grey-art-50283799/?k=50283799",
+                     "ieen": "https://www.ikea.com/ie/en/products/morgedal-memory-foam-mattress-medium-firm-dark-grey-art-50283799/?k=50283799"
+                  },
+                  "name": "MORGEDAL",
+                  "description" : "Single, memory foam mattress, medium firm",
+                  "price" : {
+                     "gben": "£125",
+                     "ieen": "€175"
+                  }
+               }
+         ],
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":"essentials",
+               "label": "Discover more"
+            }
+         ]
+      }
+    ]
+ }

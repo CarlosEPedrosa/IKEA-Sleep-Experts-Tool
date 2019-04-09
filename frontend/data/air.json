@@ -1,0 +1,135 @@
+{  
+   "name":"IKEA Sleep Experts - Air",
+   "screens":[
+      {  
+         "id": 0,
+         "type":"Question",
+         "heading":"Air quality",
+         "content":"Did you know that the bedroom often has the worst air quality in the whole house? That’s mainly because the door tends to stay shut. This is bad news when the air quality of your bedroom is proven to affect the quality of your sleep.",
+         "visual": ["IKEA_Sleep_essentials_v5_A1.svg"],
+         "includeBed": 0,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":1,
+               "label": "Tell me more"
+            }
+         ]
+      },
+      {  
+         "id": 1,
+         "type":"Product",
+         "heading":"",
+         "content":"NASA researchers suggest that air-filtering plants can be an effective way to enhance air quality. It’s also important to keep bedroom humidity at around 50%.",
+         "extra": "",
+         "visual": "",
+         "tracking": "page tracker",
+         "articles":[
+            {
+               "visual": "images/air/articles/reading-in-bed.jpg",
+               "tracking": "article clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/ideas/how-to-improve-the-air-quality-for-a-better-sleep-1364672979566/",
+                  "ieen": "https://www.ikea.com/ie/en/ideas/how-to-improve-the-air-quality-for-a-better-sleep-1364669318100/"
+                },
+               "name": "How to improve the air quality for a better sleep",
+               "description" : "Cleaner air and balanced humidity levels in your bedroom can do wonders for your sleep quality. Find out how to clean up your act."
+            }
+         ],
+         "products":[
+            {
+               "visual": "images/air/products/aloe-vera-potted-plant-12cm.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/decoration/plants-pots-stands/aloe-vera-potted-plant-aloe-art-70276651/?k=70276651",
+                  "ieen": ""
+               },
+               "name": "ALOE VERA",
+               "description" : "12cm, Potted plant",
+               "price" : {
+                  "gben": "£3",
+                  "ieen": "NOT AVAILABLE"
+               }
+            },
+           {
+               "visual": "images/air/products/aloe-vera-potted-plant.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/decoration/plants-pots-stands/aloe-vera-potted-plant-art-80387408/?k=80387408",
+                  "ieen": "https://www.ikea.com/ie/en/products/decoration/plants-pots-stands/aloe-vera-potted-plant-art-80387408/?k=80387408"
+               },
+               "name": "ALOE VERA",
+               "description" : "15cm, Potted plant",
+               "price" : {
+                  "gben": "£7.50",
+                  "ieen": "€8.50"
+               }
+            },
+           {
+               "visual": "images/air/products/dracaena-potted-plant.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/decoration/plants-pots-stands/dracaena-potted-plant-art-70392759/?k=70392759",
+                  "ieen": "https://www.ikea.com/ie/en/products/decoration/plants-pots-stands/dracaena-potted-plant-art-70392759/?k=70392759"
+               },
+               "name": "DRACAENA",
+               "description" : "Potted plant",
+               "price" : {
+                  "gben": "£2.50",
+                  "ieen": "€3"
+               }
+            },
+           {
+               "visual": "images/air/products/dracaena-burley-potted-plant.jpg",
+               "tracking": "product clicked",
+               "destination": {
+                  "gben": "https://www.ikea.com/gb/en/products/decoration/plants-pots-stands/dracaena-burley-potted-plant-art-70217039/?k=70217039",
+                  "ieen": ""
+               },
+               "name": "DRACAENA BURLEY",
+               "description" : "Potted plant",
+               "price" : {
+                  "gben": "£20",
+                  "ieen": "NOT AVAILABLE"
+               }
+            }
+         ],
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":2,
+               "label": "Tell me more about humidity"
+            }
+         ]
+      },
+      {  
+         "id": 2,
+         "type":"Question",
+         "heading":"Humidity",
+         "content":"If the air in your bedroom is too dry, your sleep is likely to be disturbed by a dry mouth and nose, much like the feeling you get when travelling by plane. On the other hand, if the air’s damp it can make you feel uncomfortably hot and sticky.",
+         "visual": ["IKEA_Sleep_essentials_v5_A2.svg"],
+         "includeBed": 0,
+         "tracking": "page tracker",
+         "ctas":[
+            {
+               "tracking": "button clicked",
+               "destination":"essentials",
+               "label": "Discover more"
+            }
+         ]
+      },
+      {  
+         "id": 3,
+         "type":"Product",
+         "heading":"",
+         "content":"The easiest way to get ideal air quality in your bedroom is by keeping a window open and allowing fresh air to circulate. If this causes unwanted noise, think about opening the window for an hour or so before you plan to sleep instead.",
+         "extra": "",
+         "visual": "",
+         "tracking": "page tracker",
+         "articles":[],
+         "products":[],
+         "ctas":[]
+      }
+    ]
+ }

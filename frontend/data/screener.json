@@ -1,0 +1,194 @@
+{  
+   "name":"IKEA Sleep Experts - Screener",
+   "screens":[
+       {  
+          "type":"Question",
+          "heading":"Whose sleep do you want to improve?",
+          "content":"",
+          "visual": "",
+          "tracking": "page tracker",
+          "ctas":[
+             {
+                "value": "A",
+                "tracking": "button clicked",
+                "destination":1,
+                "label": "An adult"
+             },
+             {
+                "value": "B",
+                "tracking": "button clicked",
+                "destination": 1,
+                "label": "A couple"
+             },
+             {
+                "value": "C",
+                "tracking": "button clicked",
+                "destination": 1,
+                "label": "A child"
+             }
+          ]
+       },
+       {  
+          "type":"Question",
+          "heading":"Where do you live?",
+          "content":"",
+          "visual": "",
+          "tracking": "page tracker",
+          "ctas":[
+             {
+                "value": "A",
+                "tracking": "button clicked",
+                "destination": 2,
+                "label": "A built-up area"
+             },
+             {
+                "value": "B",
+                "tracking": "button clicked",
+                "destination": 2,
+                "label": "The suburbs"
+             },
+             {
+                "value": "C",
+                "tracking": "button clicked",
+                "destination": 2,
+                "label": "Somewhere remote"
+             }
+          ]
+       },
+       {  
+          "type":"Question",
+          "heading":"How would you describe your bed’s comfort levels?",
+          "content":"",
+          "visual": "",
+          "tracking": "page tracker",
+          "ctas":[
+             {
+                "value": "A",
+                "tracking": "button clicked",
+                "destination": 3,
+                "label": "Super-comfy"
+             },
+             {
+                "value": "B",
+                "tracking": "button clicked",
+                "destination": 3,
+                "label": "So-so"
+             },
+             {
+                "value": "C",
+                "tracking": "button clicked",
+                "destination": 3,
+                "label": "Uncomfortable"
+             }
+          ]
+       },
+       {  
+          "type":"Question",
+          "heading":"How bright is your bedroom when you’re trying to sleep?",
+          "content":"",
+          "visual": "",
+          "tracking": "page tracker",
+          "ctas":[
+             {
+                "value": "A",
+                "tracking": "button clicked",
+                "destination": 4,
+                "label": "Quite dark"
+             },
+             {
+                "value": "B",
+                "tracking": "button clicked",
+                "destination": 4,
+                "label": "A little"
+             },
+             {
+                "value": "C",
+                "tracking": "button clicked",
+                "destination": 4,
+                "label": "Fairly bright"
+             }
+          ]
+       },
+       {  
+          "type":"Question",
+          "heading":"How noisy is it outside when you’re going to sleep?",
+          "content":"",
+          "visual": "",
+          "tracking": "page tracker",
+          "ctas":[
+             {
+                "value": "A",
+                "tracking": "button clicked",
+                "destination": 5,
+                "label": "Almost silent"
+             },
+             {
+                "value": "B",
+                "tracking": "button clicked",
+                "destination": 5,
+                "label": "Fairly quiet"
+             },
+             {
+                "value": "C",
+                "tracking": "button clicked",
+                "destination": 5,
+                "label": "Very loud"
+             }
+          ]
+       },
+       {  
+          "type":"Question",
+          "heading":"At bedtime, how warm is your bedroom?",
+          "content":"",
+          "visual": "",
+          "tracking": "page tracker",
+          "ctas":[
+             {
+                "value": "A",
+                "tracking": "button clicked",
+                "destination": 6,
+                "label": "Neutral"
+             },
+             {
+                "value": "B",
+                "tracking": "button clicked",
+                "destination": 6,
+                "label": "Cool"
+             },
+             {
+                "value": "C",
+                "tracking": "button clicked",
+                "destination": 6,
+                "label": "Warm"
+             }
+          ]
+       },
+       {  
+          "type":"Question",
+          "heading":"How does air circulate in the room while you’re asleep?",
+          "content":"",
+          "visual": "",
+          "tracking": "page tracker",
+          "ctas":[
+             {
+                "value": "A",
+                "tracking": "button clicked",
+                "destination": "essentials",
+                "label": "An open window"
+             },
+             {
+                "value": "B",
+                "tracking": "button clicked",
+                "destination": "essentials",
+                "label": "A door left ajar"
+             },
+             {
+                "value": "C",
+                "tracking": "button clicked",
+                "destination": "essentials",
+                "label": "It doesn’t"
+             }
+          ]
+       }
+    ]
+ }
